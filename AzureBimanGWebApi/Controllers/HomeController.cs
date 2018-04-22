@@ -13,7 +13,8 @@ namespace AzureBimanGWebApi.Controllers
         private List<EmployeeDetails> _employees = new List<EmployeeDetails>
         {
             new EmployeeDetails{EmployeeName="Biman",Age= 35 , Address="Athpore" },
-            new EmployeeDetails{EmployeeName="Priyanka",Age= 30,Address="PayraDanga" }
+            new EmployeeDetails{EmployeeName="Priyanka",Age= 30,Address="PayraDanga" },
+            new EmployeeDetails{EmployeeName="Shreyan",Age= 4,Address="Bangalore" }
         };
        
         [HttpGet]
